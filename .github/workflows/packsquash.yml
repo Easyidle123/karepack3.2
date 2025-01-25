@@ -1,0 +1,22 @@
+name: Optimize resource pack
+
+on: [push]
+
+jobs:
+  packsquash:
+    name: Optimize resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          # We must do a full clone rather than a shallow one
+          fetch-depth: 0
+
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          # "latest" will always fetch the newest stable PackSquash release
+          packsquash_version: latest
+          # No custom options => defaults to pack_directory = "."
+          # The default output artifact name is "Optimized pack"
