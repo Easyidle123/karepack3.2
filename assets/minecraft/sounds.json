@@ -1,0 +1,264 @@
+{
+  "music_disc.death": {
+    "sounds": [
+      {
+        "name": "records/c418/death",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.chris": {
+    "sounds": [
+      {
+        "name": "records/c418/chris",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.key": {
+    "sounds": [
+      {
+        "name": "records/c418/key",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dog": {
+    "sounds": [
+      {
+        "name": "records/c418/dog",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.droopy_likes_ricochet": {
+    "sounds": [
+      {
+        "name": "records/c418/droopy_likes_ricochet",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.droopy_likes_your_face": {
+    "sounds": [
+      {
+        "name": "records/c418/droopy_likes_your_face",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.door": {
+    "sounds": [
+      {
+        "name": "records/c418/door",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.eleven": {
+    "sounds": [
+      {
+        "name": "records/c418/eleven",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cave_chimes": {
+    "sounds": [
+      {
+        "name": "records/c418/cave_chimes",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.flake": {
+    "sounds": [
+      {
+        "name": "records/c418/flake",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.taswell": {
+    "sounds": [
+      {
+        "name": "records/c418/taswell",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.thunderbird": {
+    "sounds": [
+      {
+        "name": "records/c418/thunderbird",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.intro": {
+    "sounds": [
+      {
+        "name": "records/c418/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.revenge": {
+    "sounds": [
+      {
+        "name": "records/captainsparklez/revenge",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fallen_kingdom": {
+    "sounds": [
+      {
+        "name": "records/captainsparklez/fallen_kingdom",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.dont_mine_at_night": {
+    "sounds": [
+      {
+        "name": "records/dont_mine_at_night",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.block_game_good": {
+    "sounds": [
+      {
+        "name": "records/block_game_good",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.luft_matte": {
+    "sounds": [
+      {
+        "name": "records/luft_matte",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.fizz": {
+    "sounds": [
+      {
+        "name": "records/fizz",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.the_wind_can_be_still": {
+    "sounds": [
+      {
+        "name": "records/the_wind_can_be_still",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.going_on_a_walk": {
+    "sounds": [
+      {
+        "name": "records/going_on_a_walk",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.mine_diamonds": {
+    "sounds": [
+      {
+        "name": "records/mine_diamonds",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.only_the_beginning": {
+    "sounds": [
+      {
+        "name": "records/only_the_beginning",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.abandoned_halls": {
+    "sounds": [
+      {
+        "name": "records/abandoned_halls",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.voide": {
+    "sounds": [
+      {
+        "name": "records/voide",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.kayava": {
+    "sounds": [
+      {
+        "name": "records/james_primate/kayava",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.breathing_hyometer": {
+    "sounds": [
+      {
+        "name": "records/james_primate/breathing_hyometer",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.veiled_northstar": {
+    "sounds": [
+      {
+        "name": "records/james_primate/veiled_northstar",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.waterfall": {
+    "sounds": [
+      {
+        "name": "records/toby_fox/waterfall",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.another_medium": {
+    "sounds": [
+      {
+        "name": "records/toby_fox/another_medium",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.core": {
+    "sounds": [
+      {
+        "name": "records/toby_fox/core",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.gymnopedie_no1": {
+    "sounds": [
+      {
+        "name": "records/gymnopedie_no1",
+        "stream": true
+      }
+    ]
+  },
+  "item.goat_horn.sound.toreador": {
+    "sounds": [
+      "item/goat_horn/toreador"
+    ],
+    "subtitle": "subtitles.item.goat_horn.play"
+  }
+}

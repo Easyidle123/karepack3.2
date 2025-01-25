@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "fizz",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/fizz"
+        }
+      },
+      {
+        "when": "abandoned_halls",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/abandoned_halls"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/fizz"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/abandoned_halls"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/music_disc_5"
+      }
+    }
+  }
+}

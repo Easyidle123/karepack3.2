@@ -1,0 +1,46 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "going_on_a_walk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/going_on_a_walk"
+        }
+      },
+      {
+        "when": "only_the_beginning",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/only_the_beginning"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/going_on_a_walk"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/only_the_beginning"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/music_disc_creator_music_box"
+      }
+    }
+  }
+}

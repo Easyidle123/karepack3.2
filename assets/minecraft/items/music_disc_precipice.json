@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "mine_diamonds",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/mine_diamonds"
+        }
+      },
+      {
+        "when": "thunderbird",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/thunderbird"
+        }
+      },
+      {
+        "when": "gymnopedie_no1",
+        "model": {
+          "type": "minecraft:model",
+          "model": "new_music:item/gymnopedie_no1"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/mine_diamonds"
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "new_music:item/thunderbird"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/music_disc_precipice"
+      }
+    }
+  }
+}
